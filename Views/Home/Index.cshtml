@@ -1,0 +1,30 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<form method="get" asp-controller="Home" asp-action="Index">
+    <input type="text" name="searchQuery" placeholder="商品名で検索" class="form-control" value="@ViewData["SearchQuery"]" />
+    <button type="submit" class="btn btn-primary mt-2">検索</button>
+</form>
+
+<div class="text-center">
+    <h1 class="display-4">Camazon</h1>
+    <h3>今人気の商品</h3>
+</div>
+<div class="card-container">
+    @foreach(var item in Model)
+    {
+        <div class="card">
+            <img class="card-image" src="@item.ImageUrl" alt="image">
+            <p class="card-product-name">
+                @(item.ProductName.Length > 60 
+                    ? item.ProductName.Substring(0, 60) + "..." 
+                    : item.ProductName)
+            </p> 
+            <p class="card-price">¥@string.Format("{0:N0}", @item.Price)</p>
+        </div>
+    }
+</div>
+<div class="category-container">
+
+</div>

@@ -1,0 +1,12 @@
+services:
+  # MySQL
+  db:
+    image: mysql:9.0.1
+    container_name: camazon
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: aoz
+      MYSQL_USER: ore
+      MYSQL_PASSWORD: oreore
+    ports:
+    - 3006:3306
