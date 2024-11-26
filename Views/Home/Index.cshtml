@@ -15,13 +15,16 @@
     @foreach(var item in Model)
     {
         <div class="card">
-            <img class="card-image" src="@item.ImageUrl" alt="image">
-            <p class="card-product-name">
-                @(item.ProductName.Length > 60 
-                    ? item.ProductName.Substring(0, 60) + "..." 
-                    : item.ProductName)
-            </p> 
-            <p class="card-price">¥@string.Format("{0:N0}", @item.Price)</p>
+            <a asp-controller="Home" asp-action="Details" asp-route-id="@item.ProductId">
+                <img class="card-image" src="@item.ImageUrl" alt="image">
+                <p class="card-product-name">
+                    @(item.ProductName.Length > 60 
+                        ? item.ProductName.Substring(0, 60) + "..." 
+                        : item.ProductName)
+                </p> 
+                <a href="#">@item.Maker</a>
+                <p class="card-price">¥@string.Format("{0:N0}", @item.Price)</p>
+            </a>
         </div>
     }
 </div>

@@ -19,7 +19,7 @@ public class HomeController : Controller
 
     public IActionResult Index(string searchQuery)
     {
-        // 検索クエリが空またはnullの場合は全データを取得
+        
         var products = _context.Product.AsQueryable();
 
         if (!string.IsNullOrEmpty(searchQuery))
@@ -33,6 +33,16 @@ public class HomeController : Controller
 
         // フィルタリングした結果をビューに渡す
         return View(products.ToList());
+    }
+
+    public IActionResult Details(int id)
+    {
+        var product = _context.Product.FirstOrDefault(p => p.ProductId == id);
+        if (product == null)
+        {
+            return NotFound();
+        }
+        return View(product);
     }
     
 

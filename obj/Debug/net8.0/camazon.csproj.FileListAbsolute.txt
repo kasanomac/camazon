@@ -243,3 +243,4 @@
 /Users/seikasa/Desktop/camazon/camazon/bin/Debug/net8.0/runtimes/win/lib/net7.0/System.Security.Cryptography.ProtectedData.dll
 /Users/seikasa/Desktop/camazon/camazon/bin/Debug/net8.0/runtimes/win/lib/net7.0/System.Windows.Extensions.dll
 /Users/seikasa/Desktop/camazon/camazon/obj/Debug/net8.0/camazon.csproj.Up2Date
+/Users/seikasa/Desktop/camazon/camazon/obj/Debug/net8.0/camazon.sourcelink.json

@@ -8,5 +8,6 @@ namespace camazon.Models
         public required string Description {get; set;}
         public required string ImageUrl {get; set;}
         public required string ProductCategory {get; set;}
+        public required string Maker {get; set;}
     }
 }

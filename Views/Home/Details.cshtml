@@ -1,0 +1,10 @@
+@model Product
+
+<h2>こにちは</h2>
+
+<h1>@Model.ProductName</h1>
+<img src="@Model.ImageUrl" alt="@Model.ProductName" style="max-width:300px;">
+<p>価格: @Model.Price.ToString("C")</p>
+<p>@Model.Description</p>
+
+<a asp-controller="Home" asp-action="Index">戻る</a>

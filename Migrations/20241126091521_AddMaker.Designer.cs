@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using camazon.Areas.Identity.Data;
 
@@ -11,9 +12,11 @@ using camazon.Areas.Identity.Data;
 namespace camazon.Migrations
 {
     [DbContext(typeof(camazonIdentityDbContext))]
-    partial class camazonIdentityDbContextModelSnapshot : ModelSnapshot
+    [Migration("20241126091521_AddMaker")]
+    partial class AddMaker
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
