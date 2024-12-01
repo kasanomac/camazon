@@ -6,27 +6,37 @@
     margin-top: 18px;
     border-style: inset;    
     text-align: center;
-   
+    text-decoration: none;
+
 }
 
 .card-container {
     display: flex;              
     flex-wrap: wrap;            
-    gap: 50px;              
+    gap: 50px;             
+ 
 }
 
 .card-image{
-    height: 250px;
-    width: 250px;
+    height: auto;
+    width: 200px;
 }
 
-.card-ProductName{
+.card-product-name{
     font-size: 23px;
+    text-decoration-line: none;
+    color: black;
+
 }
 
 .card-price{
     color: red;
     font-size: 25px;
+}
+
+.card-detail{
+    text-decoration: none;
+
 }
 
 

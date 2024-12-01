@@ -1,0 +1,68 @@
+.detail-card{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin-left: 30px;
+    align-items: flex-start;
+}
+
+
+
+.statas{
+    width: 450px;
+}
+
+
+.detail-Image{
+    width: 400px;
+    height: auto;
+    border-style: none;
+    margin-right: 50px;
+}
+
+.detail-Description{
+    width: 450px;
+    margin-left: 480px;
+
+}
+
+.detail-price{
+    font-size: 30px;
+    vertical-align: baseline;
+    
+}
+
+.unused{
+    width: 400px;
+    height: 70px;
+    margin: auto;
+    display: block;
+}
+
+.related-card{
+    width: 200px;
+    height: 400px;
+    border-style: none; 
+    text-align: center;
+    text-decoration: none;
+}
+
+.related-container{
+    display: flex;              
+    flex-wrap: wrap;            
+    gap: 50px;  
+}
+
+.related-image{
+    width: 200px;
+    height: auto;
+}
+
+.card-related{
+    text-decoration: none;
+    border-style: none;
+}
+
+.related-product-name{
+    color: black;
+}

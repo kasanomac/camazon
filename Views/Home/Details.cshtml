@@ -1,10 +1,38 @@
-@model Product
 
-<h2>こにちは</h2>
 
-<h1>@Model.ProductName</h1>
-<img src="@Model.ImageUrl" alt="@Model.ProductName" style="max-width:300px;">
-<p>価格: @Model.Price.ToString("C")</p>
-<p>@Model.Description</p>
+<div>
+    <img src="/images/unused.png" class="unused">
+</div>
+
+<div class="detail-card">
+    <img src="@ViewBag.Product.ImageUrl" alt="@ViewBag.Product.ProductName" class="detail-Image">
+    <div class="statas">
+        <h3 class="detail-ProductName">@ViewBag.Product.ProductName</h3>
+        <a href="#" class="detail-maker">@ViewBag.Product.Maker</a>
+        <span style="vertical-align: baseline;"><p class="detail-price">価格: @ViewBag.Product.Price.ToString("C")</p></span>
+    </div>
+</div>
+
+<p class="detail-Description">@ViewBag.Product.Description</p>
+    
+<h3>関連する商品</h3>
+<div class="related-container">
+    @foreach (var item in ViewBag.RelatedProducts)
+    {
+        <div class="related-card">
+            <a asp-controller="Home" asp-action="Details" asp-route-id="@item.ProductId" class="card-related">
+                <img class="related-image" src="@item.ImageUrl" alt="image">
+                <p class="related-product-name">
+                    @(item.ProductName.Length > 58 
+                        ? item.ProductName.Substring(0, 58) + "..." 
+                        : item.ProductName)
+                </p> 
+                <a href="#" class="related-maker">@item.Maker</a>
+                <p class="related-price">¥@string.Format("{0:N0}", @item.Price)</p>
+            </a>
+        </div>   
+    }
+</div>
+
 
 <a asp-controller="Home" asp-action="Index">戻る</a>

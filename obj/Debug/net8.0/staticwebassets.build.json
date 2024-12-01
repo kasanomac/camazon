@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Jbz/7dKxme3Ht8HfhWlBPCjFxtB/PtIH55D5GrozjI8=",
+  "Hash": "mEnctldNuj95nUMXaR0yHJahRNIRg96fijZnCFOeUvs=",
   "Source": "camazon",
   "BasePath": "_content/camazon",
   "Mode": "Default",
@@ -1195,6 +1195,25 @@
       "OriginalItemSpec": "/Users/seikasa/Desktop/camazon/camazon/obj/Debug/net8.0/scopedcss/projectbundle/camazon.bundle.scp.css"
     },
     {
+      "Identity": "/Users/seikasa/Desktop/camazon/camazon/wwwroot/css/detail.css",
+      "SourceId": "camazon",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/seikasa/Desktop/camazon/camazon/wwwroot/",
+      "BasePath": "_content/camazon",
+      "RelativePath": "css/detail.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/detail.css"
+    },
+    {
       "Identity": "/Users/seikasa/Desktop/camazon/camazon/wwwroot/css/site.css",
       "SourceId": "camazon",
       "SourceType": "Discovered",
@@ -1478,6 +1497,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/images/shinuchi.jpg"
+    },
+    {
+      "Identity": "/Users/seikasa/Desktop/camazon/camazon/wwwroot/images/unused.png",
+      "SourceId": "camazon",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/seikasa/Desktop/camazon/camazon/wwwroot/",
+      "BasePath": "_content/camazon",
+      "RelativePath": "images/unused.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/unused.png"
     },
     {
       "Identity": "/Users/seikasa/Desktop/camazon/camazon/wwwroot/images/vacuum.jpg",

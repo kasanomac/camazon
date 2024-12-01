@@ -35,14 +35,19 @@ public class HomeController : Controller
         return View(products.ToList());
     }
 
-    public IActionResult Details(int id)
+    public IActionResult Details(int id, string ProductCategory)
     {
         var product = _context.Product.FirstOrDefault(p => p.ProductId == id);
-        if (product == null)
+        var products = _context.Product.AsQueryable();
+        if(products != null)
         {
-            return NotFound();
+            products = products.Where(p => p.ProductCategory == product.ProductCategory);
         }
-        return View(product);
+        
+        ViewBag.Product = product;
+        ViewBag.RelatedProducts = products;
+
+        return View();  
     }
     
 
