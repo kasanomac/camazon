@@ -1,42 +1,42 @@
-.card{ 
+.Maker-card{
     width: 250px;
     height: 500px;
-    border-style: none;
     margin-top: 18px;
-    border-style: inset;    
+    border: 1px solid rgb(222, 218, 218);    
     text-align: center;
     text-decoration: none;
-
 }
 
-.card-container {
+.maker-container {
     display: flex;              
     flex-wrap: wrap;            
     gap: 50px;             
  
 }
 
-.card-image{
+.maker-image{
     height: auto;
     width: 200px;
 }
 
-.card-product-name{
+.maker-product-name{
     font-size: 17px;
     text-decoration-line: none;
     color: black;
 
 }
 
-.card-price{
+.maker-price{
     color: red;
     font-size: 25px;
 }
 
-.card-detail{
+.maker-maker{
+    text-decoration: none;
+}
+
+.card-maker{
     text-decoration: none;
 
 }
-
-
 

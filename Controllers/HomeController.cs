@@ -49,6 +49,18 @@ public class HomeController : Controller
 
         return View();  
     }
+    public IActionResult Makers(int id, string Maker)
+    {
+        var product = _context.Product.FirstOrDefault(p => p.ProductId == id);
+        var products = _context.Product.AsQueryable();
+
+        products = products.Where(p => p.Maker == product.Maker);
+
+        ViewBag.Product = product;
+        ViewBag.MakerProducts = products.ToList();
+
+        return View();
+    }
     
 
     public IActionResult Privacy()

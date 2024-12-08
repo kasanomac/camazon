@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "mEnctldNuj95nUMXaR0yHJahRNIRg96fijZnCFOeUvs=",
+  "Hash": "vfUzr0+G3ggCxD4YJwCESci9+ow6iB8hJa/Q0nty0JY=",
   "Source": "camazon",
   "BasePath": "_content/camazon",
   "Mode": "Default",
@@ -1214,6 +1214,25 @@
       "OriginalItemSpec": "wwwroot/css/detail.css"
     },
     {
+      "Identity": "/Users/seikasa/Desktop/camazon/camazon/wwwroot/css/maker.css",
+      "SourceId": "camazon",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/seikasa/Desktop/camazon/camazon/wwwroot/",
+      "BasePath": "_content/camazon",
+      "RelativePath": "css/maker.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/maker.css"
+    },
+    {
       "Identity": "/Users/seikasa/Desktop/camazon/camazon/wwwroot/css/site.css",
       "SourceId": "camazon",
       "SourceType": "Discovered",
@@ -1326,6 +1345,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/images/earphones.jpg"
+    },
+    {
+      "Identity": "/Users/seikasa/Desktop/camazon/camazon/wwwroot/images/FantasyLife.jpg",
+      "SourceId": "camazon",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/seikasa/Desktop/camazon/camazon/wwwroot/",
+      "BasePath": "_content/camazon",
+      "RelativePath": "images/FantasyLife.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/FantasyLife.jpg"
     },
     {
       "Identity": "/Users/seikasa/Desktop/camazon/camazon/wwwroot/images/heater.jpg",
@@ -1480,6 +1518,25 @@
       "OriginalItemSpec": "wwwroot/images/raimei.jpg"
     },
     {
+      "Identity": "/Users/seikasa/Desktop/camazon/camazon/wwwroot/images/reiton.jpg",
+      "SourceId": "camazon",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/seikasa/Desktop/camazon/camazon/wwwroot/",
+      "BasePath": "_content/camazon",
+      "RelativePath": "images/reiton.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/reiton.jpg"
+    },
+    {
       "Identity": "/Users/seikasa/Desktop/camazon/camazon/wwwroot/images/shinuchi.jpg",
       "SourceId": "camazon",
       "SourceType": "Discovered",
@@ -1497,6 +1554,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/images/shinuchi.jpg"
+    },
+    {
+      "Identity": "/Users/seikasa/Desktop/camazon/camazon/wwwroot/images/snac.jpg",
+      "SourceId": "camazon",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/seikasa/Desktop/camazon/camazon/wwwroot/",
+      "BasePath": "_content/camazon",
+      "RelativePath": "images/snac.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/snac.jpg"
     },
     {
       "Identity": "/Users/seikasa/Desktop/camazon/camazon/wwwroot/images/unused.png",
@@ -1573,6 +1649,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/images/your_quiz.jpg"
+    },
+    {
+      "Identity": "/Users/seikasa/Desktop/camazon/camazon/wwwroot/images/スクリーンショット 2024-12-06 20.09.40.png",
+      "SourceId": "camazon",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/seikasa/Desktop/camazon/camazon/wwwroot/",
+      "BasePath": "_content/camazon",
+      "RelativePath": "images/スクリーンショット 2024-12-06 20.09.40.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/スクリーンショット 2024-12-06 20.09.40.png"
     },
     {
       "Identity": "/Users/seikasa/Desktop/camazon/camazon/wwwroot/js/site.js",

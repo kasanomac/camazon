@@ -1,0 +1,22 @@
+<div>
+    <img src="/images/unused.png" class="unused">
+</div>
+<h1>@ViewBag.product.Maker のストア</h1>
+<div class="maker-container">
+    @foreach (var item in ViewBag.MakerProducts)
+    {
+        <div class="Maker-card">
+                <a asp-controller="Home" asp-action="Details" asp-route-id="@item.ProductId" class="card-maker">
+                    <img class="maker-image" src="@item.ImageUrl" alt="image">
+                    <p class="maker-product-name">
+                        @(item.ProductName.Length > 58 
+                            ? item.ProductName.Substring(0, 58) + "..." 
+                            : item.ProductName)
+                    </p> 
+                    <a asp-controller="Home" asp-action="Makers" asp-route-id="@item.ProductId" class="maker-maker">@item.Maker</a>
+                    <p class="maker-price">¥@string.Format("{0:N0}", @item.Price)</p>
+                </a>
+        </div>   
+    }
+</div>
+

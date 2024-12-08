@@ -8,7 +8,7 @@
     <img src="@ViewBag.Product.ImageUrl" alt="@ViewBag.Product.ProductName" class="detail-Image">
     <div class="statas">
         <h3 class="detail-ProductName">@ViewBag.Product.ProductName</h3>
-        <a href="#" class="detail-maker">@ViewBag.Product.Maker</a>
+        <a asp-controller="Home" asp-action="Makers" asp-route-id="@ViewBag.Product.ProductId" class="detail-maker">@ViewBag.Product.Maker</a>
         <span style="vertical-align: baseline;"><p class="detail-price">価格: @ViewBag.Product.Price.ToString("C")</p></span>
     </div>
 </div>
@@ -27,7 +27,7 @@
                         ? item.ProductName.Substring(0, 58) + "..." 
                         : item.ProductName)
                 </p> 
-                <a href="#" class="related-maker">@item.Maker</a>
+                <a asp-controller="Home" asp-action="Makers" asp-route-id="@item.ProductId" class="related-maker">@item.Maker</a>
                 <p class="related-price">¥@string.Format("{0:N0}", @item.Price)</p>
             </a>
         </div>   

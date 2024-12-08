@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets/css/detail.css"
     },
     {
+      "Id": "/Users/seikasa/Desktop/camazon/camazon/wwwroot/css/maker.css",
+      "PackagePath": "staticwebassets/css/maker.css"
+    },
+    {
       "Id": "/Users/seikasa/Desktop/camazon/camazon/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },
@@ -19,6 +23,10 @@
     {
       "Id": "/Users/seikasa/Desktop/camazon/camazon/wwwroot/favicon.ico",
       "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/seikasa/Desktop/camazon/camazon/wwwroot/images/FantasyLife.jpg",
+      "PackagePath": "staticwebassets/images/FantasyLife.jpg"
     },
     {
       "Id": "/Users/seikasa/Desktop/camazon/camazon/wwwroot/images/black2.jpg",
@@ -65,8 +73,16 @@
       "PackagePath": "staticwebassets/images/raimei.jpg"
     },
     {
+      "Id": "/Users/seikasa/Desktop/camazon/camazon/wwwroot/images/reiton.jpg",
+      "PackagePath": "staticwebassets/images/reiton.jpg"
+    },
+    {
       "Id": "/Users/seikasa/Desktop/camazon/camazon/wwwroot/images/shinuchi.jpg",
       "PackagePath": "staticwebassets/images/shinuchi.jpg"
+    },
+    {
+      "Id": "/Users/seikasa/Desktop/camazon/camazon/wwwroot/images/snac.jpg",
+      "PackagePath": "staticwebassets/images/snac.jpg"
     },
     {
       "Id": "/Users/seikasa/Desktop/camazon/camazon/wwwroot/images/unused.png",
@@ -83,6 +99,10 @@
     {
       "Id": "/Users/seikasa/Desktop/camazon/camazon/wwwroot/images/your_quiz.jpg",
       "PackagePath": "staticwebassets/images/your_quiz.jpg"
+    },
+    {
+      "Id": "/Users/seikasa/Desktop/camazon/camazon/wwwroot/images/スクリーンショット 2024-12-06 20.09.40.png",
+      "PackagePath": "staticwebassets/images/スクリーンショット 2024-12-06 20.09.40.png"
     },
     {
       "Id": "/Users/seikasa/Desktop/camazon/camazon/wwwroot/js/site.js",

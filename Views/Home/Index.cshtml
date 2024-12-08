@@ -22,7 +22,7 @@
                         ? item.ProductName.Substring(0, 58) + "..." 
                         : item.ProductName)
                 </p> 
-                <a href="#">@item.Maker</a>
+                <a asp-controller="Home" asp-action="Makers" asp-route-id="@item.ProductId" >@item.Maker</a>
                 <p class="card-price">¥@string.Format("{0:N0}", @item.Price)</p>
             </a>
         </div>

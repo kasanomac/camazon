@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("camazon")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5fa2dfe88c5960facf729508446c140ced66acb8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+35f1bd860f3670438aefb5b7057367b66ddd5a78")]
 [assembly: System.Reflection.AssemblyProductAttribute("camazon")]
 [assembly: System.Reflection.AssemblyTitleAttribute("camazon")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
